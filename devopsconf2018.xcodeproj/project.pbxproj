@@ -16,6 +16,20 @@
 		DD61A0AE215A7B0D00B6B367 /* devopsconf2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A0AD215A7B0D00B6B367 /* devopsconf2018Tests.swift */; };
 		DD61A0B9215A840500B6B367 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A0B8215A840500B6B367 /* Datasource.swift */; };
 		DD61A0BA215A865400B6B367 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A0B8215A840500B6B367 /* Datasource.swift */; };
+		DDB37854215FAE3800C68698 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A0B8215A840500B6B367 /* Datasource.swift */; };
+		DDB37855215FAE3800C68698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A09A215A7B0C00B6B367 /* ViewController.swift */; };
+		DDB37856215FAE3800C68698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A098215A7B0C00B6B367 /* AppDelegate.swift */; };
+		DDB37858215FAE3800C68698 /* Pods_devopsconf2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CAA6394C1355E93443CA8 /* Pods_devopsconf2018.framework */; };
+		DDB3785A215FAE3800C68698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD61A0A1215A7B0D00B6B367 /* LaunchScreen.storyboard */; };
+		DDB3785B215FAE3800C68698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD61A09F215A7B0D00B6B367 /* Assets.xcassets */; };
+		DDB3785C215FAE3800C68698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD61A09C215A7B0C00B6B367 /* Main.storyboard */; };
+		DDB37866215FAE4400C68698 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A0B8215A840500B6B367 /* Datasource.swift */; };
+		DDB37867215FAE4400C68698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A09A215A7B0C00B6B367 /* ViewController.swift */; };
+		DDB37868215FAE4400C68698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61A098215A7B0C00B6B367 /* AppDelegate.swift */; };
+		DDB3786A215FAE4400C68698 /* Pods_devopsconf2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CAA6394C1355E93443CA8 /* Pods_devopsconf2018.framework */; };
+		DDB3786C215FAE4400C68698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD61A0A1215A7B0D00B6B367 /* LaunchScreen.storyboard */; };
+		DDB3786D215FAE4400C68698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD61A09F215A7B0D00B6B367 /* Assets.xcassets */; };
+		DDB3786E215FAE4400C68698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD61A09C215A7B0C00B6B367 /* Main.storyboard */; };
 		EFCCCD9A64F3BDD8666A6D0D /* Pods_devopsconf2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CAA6394C1355E93443CA8 /* Pods_devopsconf2018.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +61,8 @@
 		DD61A0AD215A7B0D00B6B367 /* devopsconf2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devopsconf2018Tests.swift; sourceTree = "<group>"; };
 		DD61A0AF215A7B0D00B6B367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD61A0B8215A840500B6B367 /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		DDB37861215FAE3800C68698 /* devopsconf2018_QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devopsconf2018_QA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB37873215FAE4400C68698 /* devopsconf2018_Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devopsconf2018_Staging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB01042F4FBC564769A9028 /* Pods_devopsconf2018Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB37857215FAE3800C68698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB37858215FAE3800C68698 /* Pods_devopsconf2018.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB37869215FAE4400C68698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB3786A215FAE4400C68698 /* Pods_devopsconf2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +128,8 @@
 			children = (
 				DD61A095215A7B0C00B6B367 /* devopsconf2018.app */,
 				DD61A0A9215A7B0D00B6B367 /* devopsconf2018Tests.xctest */,
+				DDB37861215FAE3800C68698 /* devopsconf2018_QA.app */,
+				DDB37873215FAE4400C68698 /* devopsconf2018_Staging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +207,44 @@
 			productReference = DD61A0A9215A7B0D00B6B367 /* devopsconf2018Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DDB37851215FAE3800C68698 /* devopsconf2018_QA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB3785E215FAE3800C68698 /* Build configuration list for PBXNativeTarget "devopsconf2018_QA" */;
+			buildPhases = (
+				DDB37852215FAE3800C68698 /* [CP] Check Pods Manifest.lock */,
+				DDB37853215FAE3800C68698 /* Sources */,
+				DDB37857215FAE3800C68698 /* Frameworks */,
+				DDB37859215FAE3800C68698 /* Resources */,
+				DDB3785D215FAE3800C68698 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = devopsconf2018_QA;
+			productName = devopsconf2018;
+			productReference = DDB37861215FAE3800C68698 /* devopsconf2018_QA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB37863215FAE4400C68698 /* devopsconf2018_Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB37870215FAE4400C68698 /* Build configuration list for PBXNativeTarget "devopsconf2018_Staging" */;
+			buildPhases = (
+				DDB37864215FAE4400C68698 /* [CP] Check Pods Manifest.lock */,
+				DDB37865215FAE4400C68698 /* Sources */,
+				DDB37869215FAE4400C68698 /* Frameworks */,
+				DDB3786B215FAE4400C68698 /* Resources */,
+				DDB3786F215FAE4400C68698 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = devopsconf2018_Staging;
+			productName = devopsconf2018;
+			productReference = DDB37873215FAE4400C68698 /* devopsconf2018_Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +278,8 @@
 			projectRoot = "";
 			targets = (
 				DD61A094215A7B0C00B6B367 /* devopsconf2018 */,
+				DDB37851215FAE3800C68698 /* devopsconf2018_QA */,
+				DDB37863215FAE4400C68698 /* devopsconf2018_Staging */,
 				DD61A0A8215A7B0D00B6B367 /* devopsconf2018Tests */,
 			);
 		};
@@ -226,6 +300,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB37859215FAE3800C68698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB3785A215FAE3800C68698 /* LaunchScreen.storyboard in Resources */,
+				DDB3785B215FAE3800C68698 /* Assets.xcassets in Resources */,
+				DDB3785C215FAE3800C68698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB3786B215FAE4400C68698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB3786C215FAE4400C68698 /* LaunchScreen.storyboard in Resources */,
+				DDB3786D215FAE4400C68698 /* Assets.xcassets in Resources */,
+				DDB3786E215FAE4400C68698 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +380,78 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devopsconf2018/Pods-devopsconf2018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DDB37852215FAE3800C68698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devopsconf2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB3785D215FAE3800C68698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-devopsconf2018/Pods-devopsconf2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devopsconf2018/Pods-devopsconf2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB37864215FAE4400C68698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devopsconf2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB3786F215FAE4400C68698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-devopsconf2018/Pods-devopsconf2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devopsconf2018/Pods-devopsconf2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,6 +471,26 @@
 			files = (
 				DD61A0BA215A865400B6B367 /* Datasource.swift in Sources */,
 				DD61A0AE215A7B0D00B6B367 /* devopsconf2018Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB37853215FAE3800C68698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB37854215FAE3800C68698 /* Datasource.swift in Sources */,
+				DDB37855215FAE3800C68698 /* ViewController.swift in Sources */,
+				DDB37856215FAE3800C68698 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB37865215FAE4400C68698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB37866215FAE4400C68698 /* Datasource.swift in Sources */,
+				DDB37867215FAE4400C68698 /* ViewController.swift in Sources */,
+				DDB37868215FAE4400C68698 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +650,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DPROD\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3f1be965-4f33-46b5-9311-01fad018d6b6";
@@ -486,6 +673,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DPROD\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b67dbde1-29b5-4640-9a3d-ec873517bf9d";
@@ -545,6 +733,96 @@
 			};
 			name = Release;
 		};
+		DDB3785F215FAE3800C68698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5891E97B9A270E27F1B17D /* Pods-devopsconf2018.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KRY77A2RML;
+				INFOPLIST_FILE = devopsconf2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DQA\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c43c70ec-3956-48cf-9bdb-2989e14a4af6";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.devfactory.EmegentAWA.qa";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB37860215FAE3800C68698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9B33E40F185BB9EDFA6A2C /* Pods-devopsconf2018.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KRY77A2RML;
+				INFOPLIST_FILE = devopsconf2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DQA\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5bc87602-a8b7-47fa-9930-55c56f55d80c";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.devfactory.EmegentAWA.qa";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDB37871215FAE4400C68698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5891E97B9A270E27F1B17D /* Pods-devopsconf2018.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KRY77A2RML;
+				INFOPLIST_FILE = devopsconf2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DSTAGING\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA.stg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "680c1e7c-c536-4770-81ce-1e303e2ae459";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.devfactory.EmegentAWA.stg";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB37872215FAE4400C68698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9B33E40F185BB9EDFA6A2C /* Pods-devopsconf2018.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KRY77A2RML;
+				INFOPLIST_FILE = devopsconf2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DSTAGING\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA.stg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8749c0d5-9271-4292-8e25-83e66b35f318";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.devfactory.EmegentAWA.stg";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,6 +849,24 @@
 			buildConfigurations = (
 				DD61A0B6215A7B0D00B6B367 /* Debug */,
 				DD61A0B7215A7B0D00B6B367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB3785E215FAE3800C68698 /* Build configuration list for PBXNativeTarget "devopsconf2018_QA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB3785F215FAE3800C68698 /* Debug */,
+				DDB37860215FAE3800C68698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB37870215FAE4400C68698 /* Build configuration list for PBXNativeTarget "devopsconf2018_Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB37871215FAE4400C68698 /* Debug */,
+				DDB37872215FAE4400C68698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

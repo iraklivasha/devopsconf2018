@@ -22,6 +22,23 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    var increment = 0
+    
+    func cyclomaticComplexity(number: Int) {
+        switch number {
+        case 1:
+            increment = 1
+        case 2:
+            increment = 1
+        case 3:
+            increment = 1
+        case 4:
+            increment = 1
+        default:
+            print("...")
+        }
+    }
 
 
 }
