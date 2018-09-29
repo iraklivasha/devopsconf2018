@@ -131,7 +131,6 @@ platform :ios do
 
   identifiers = [ "com.devopsconf2018.fastlane" ]
 
-
   if keychain_name == nil
     keychain_name = "login.keychain"
   end
