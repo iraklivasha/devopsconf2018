@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='devopsconf2018Tests.xctest' tests='4' failures='0'>
+  <testsuite name='devopsconf2018Tests.devopsconf2018Tests' tests='4' failures='0'>
+    <testcase classname='devopsconf2018Tests.devopsconf2018Tests' name='testDataSourceAdd' time='0.003'/>
+    <testcase classname='devopsconf2018Tests.devopsconf2018Tests' name='testDataSourceAddDuplicate' time='0.000'/>
+    <testcase classname='devopsconf2018Tests.devopsconf2018Tests' name='testDataSourceCleanup' time='0.000'/>
+    <testcase classname='devopsconf2018Tests.devopsconf2018Tests' name='testDataSourceRemove' time='0.002'/>
+  </testsuite>
+</testsuites>

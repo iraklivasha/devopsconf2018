@@ -70,9 +70,9 @@ fastlane/test_output
 
 
 # test reports and code coverage
-scan_output/
+#scan_output/
 xcov_output/
-slather_output/
+#slather_output/
 .teamcity/
 *.generated.swift
 .DS_Store
