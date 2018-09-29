@@ -457,14 +457,17 @@
 			baseConfigurationReference = 6C5891E97B9A270E27F1B17D /* Pods-devopsconf2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KRY77A2RML;
 				INFOPLIST_FILE = devopsconf2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devopsconf2018.fastlane;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3f1be965-4f33-46b5-9311-01fad018d6b6";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.devfactory.EmegentAWA";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,14 +478,18 @@
 			baseConfigurationReference = AF9B33E40F185BB9EDFA6A2C /* Pods-devopsconf2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KRY77A2RML;
 				INFOPLIST_FILE = devopsconf2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devopsconf2018.fastlane;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfactory.EmegentAWA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b67dbde1-29b5-4640-9a3d-ec873517bf9d";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.devfactory.EmegentAWA";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

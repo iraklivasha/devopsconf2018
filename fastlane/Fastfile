@@ -129,7 +129,7 @@ platform :ios do
   keychain_name = options[:keychain]
   github_url    = "git@github.com:group/certificates.git" # or https
 
-  identifiers = { "devopsconf2018" => "com.devopsconf2018.fastlane" }
+  identifiers = [ "com.devopsconf2018.fastlane" ]
 
 
   if keychain_name == nil
